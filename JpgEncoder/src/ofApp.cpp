@@ -15,7 +15,6 @@ void ofApp::setup(){
 	mReceiver.Bind(PORT);
 	mReceiver.SetNonBlocking(true);
 	
-	//mFrameImage.load("color.png");
 	mTest.load("color.png");
 
 	mVideoPlayer.load(VIDEO_FILE_PATH);
@@ -24,12 +23,15 @@ void ofApp::setup(){
 //--------------------------------------------------------------
 void ofApp::update(){
 	//send
-	//if (mVideoPlayer.isLoaded()) {
+	/*
+	//f (mVideoPlayer.isLoaded()) {
+
 		//mVideoPlayer.update();
-		mTest.save("test.jpg",OF_IMAGE_QUALITY_WORST);
-		ofBuffer buf = ofBufferFromFile("test.jpg");
-		mSender.Send(buf.getData(), buf.size());
-	//}
+		char sendMsg[MSG_BUFF_SIZE];
+		int sendSize = MSG_BUFF_SIZE;
+		jpgDecoder(mTest.getPixels(), sendMsg, sendSize);
+		mSender.Send(sendMsg, sendSize);
+	//}*/
 	
 	//recieve
 	char recvMsg[MSG_BUFF_SIZE];
@@ -104,15 +106,15 @@ void ofApp::dragEvent(ofDragInfo dragInfo){
 
 void ofApp::jpgDecoder(ofPixels src, char* dst, int& size) {
 
-	FIMEMORY *hmemSrc, *hmemDst;
-	FIBITMAP *bmp;
+	//FIMEMORY *hmemSrc, *hmemDst;
+	//FIBITMAP *bmp;
 
-	hmemSrc = FreeImage_OpenMemory(&src.getData()[0], src.size());
-	vector<unsigned char> data(dst, dst + size);
-	hmemDst = FreeImage_OpenMemory(&data[0],  size);
-
-	bmp = FreeImage_LoadFromMemory(FREE_IMAGE_FORMAT::FIF_RAW, hmemSrc, 0);
-	FreeImage_SaveToMemory(FREE_IMAGE_FORMAT::FIF_JPEG, bmp, hmemDst);
+	//hmemSrc = FreeImage_OpenMemory(&src.getData()[0], src.size());
+	////vector<unsigned char> data(dst, dst + size);
+	////hmemDst = FreeImage_OpenMemory(&data[0],  size);
+	//FreeImage_JPEGTransformCombinedFromMemory(hmemSrc, hmemDst, FREE_IMAGE_JPEG_OPERATION::FIJPEG_OP_NONE);
+	//bmp = FreeImage_LoadFromMemory(FREE_IMAGE_FORMAT::FIF_BMP, hmemDst, 0);
+	//size = sizeof(hmemDst);
 }
 
 
@@ -127,6 +129,8 @@ void ofApp::jpgEncoder(char* src, int size, ofImage& dst) {
 	hmem = FreeImage_OpenMemory(&data[0], size);
 	fif = FreeImage_GetFileTypeFromMemory(hmem, 0);
 	bmp = FreeImage_LoadFromMemory(fif, hmem, 0);
-	dst.setFromPixels(FreeImage_GetBits(bmp), 1920 / 4, 1080 / 4, ofImageType::OF_IMAGE_COLOR, 0);
+	dst.setFromPixels(FreeImage_GetBits(bmp), 1920 /4, 1080/4 , ofImageType::OF_IMAGE_COLOR, true);
+	dst.mirror(true, false);
+	dst.getPixelsRef().swapRgb();
 	dst.update();
 }
