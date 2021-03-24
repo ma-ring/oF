@@ -1,0 +1,29 @@
+c:\users\0000145169\documents\visual studio 2015\Projects\VideoController\VideoController\bin\Debug\VideoController.exe.config
+c:\users\0000145169\documents\visual studio 2015\Projects\VideoController\VideoController\bin\Debug\VideoController.exe
+c:\users\0000145169\documents\visual studio 2015\Projects\VideoController\VideoController\bin\Debug\VideoController.pdb
+c:\users\0000145169\documents\visual studio 2015\Projects\VideoController\VideoController\obj\Debug\VideoController.csprojResolveAssemblyReference.cache
+c:\users\0000145169\documents\visual studio 2015\Projects\VideoController\VideoController\obj\Debug\MainWindow.g.cs
+c:\users\0000145169\documents\visual studio 2015\Projects\VideoController\VideoController\obj\Debug\App.g.cs
+c:\users\0000145169\documents\visual studio 2015\Projects\VideoController\VideoController\obj\Debug\VideoController_MarkupCompile.cache
+c:\users\0000145169\documents\visual studio 2015\Projects\VideoController\VideoController\obj\Debug\VideoController_MarkupCompile.lref
+c:\users\0000145169\documents\visual studio 2015\Projects\VideoController\VideoController\obj\Debug\MainWindow.baml
+c:\users\0000145169\documents\visual studio 2015\Projects\VideoController\VideoController\obj\Debug\VideoController.g.resources
+c:\users\0000145169\documents\visual studio 2015\Projects\VideoController\VideoController\obj\Debug\VideoController.Properties.Resources.resources
+c:\users\0000145169\documents\visual studio 2015\Projects\VideoController\VideoController\obj\Debug\VideoController.csproj.GenerateResource.Cache
+c:\users\0000145169\documents\visual studio 2015\Projects\VideoController\VideoController\obj\Debug\VideoController.exe
+c:\users\0000145169\documents\visual studio 2015\Projects\VideoController\VideoController\obj\Debug\VideoController.pdb
+C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\VideoController\VideoController\bin\Debug\VideoController.exe.config
+C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\VideoController\VideoController\bin\Debug\VideoController.exe
+C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\VideoController\VideoController\bin\Debug\VideoController.pdb
+C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\VideoController\VideoController\obj\Debug\VideoController.csprojAssemblyReference.cache
+C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\VideoController\VideoController\obj\Debug\MainWindow.g.cs
+C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\VideoController\VideoController\obj\Debug\App.g.cs
+C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\VideoController\VideoController\obj\Debug\VideoController_MarkupCompile.cache
+C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\VideoController\VideoController\obj\Debug\VideoController_MarkupCompile.lref
+C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\VideoController\VideoController\obj\Debug\MainWindow.baml
+C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\VideoController\VideoController\obj\Debug\VideoController.g.resources
+C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\VideoController\VideoController\obj\Debug\VideoController.Properties.Resources.resources
+C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\VideoController\VideoController\obj\Debug\VideoController.csproj.GenerateResource.cache
+C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\VideoController\VideoController\obj\Debug\VideoController.csproj.CoreCompileInputs.cache
+C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\VideoController\VideoController\obj\Debug\VideoController.exe
+C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\VideoController\VideoController\obj\Debug\VideoController.pdb

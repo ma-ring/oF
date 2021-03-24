@@ -1,0 +1,21 @@
+﻿  ofApp.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+c:\workspace\of\of_v0.11.1_vs2017_release\libs\openframeworks\utils\ofutils.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\workspace\of\of_v0.11.1_vs2017_release\libs\openframeworks\math\ofvec3f.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\workspace\of\of_v0.11.1_vs2017_release\libs\openframeworks\math\ofvec2f.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\workspace\of\of_v0.11.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(326): warning C4267: '引数': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+c:\workspace\of\of_v0.11.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(331): warning C4267: '引数': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+c:\workspace\of\of_v0.11.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(912): warning C4267: '引数': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+c:\workspace\of\of_v0.11.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(913): warning C4267: '引数': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+c:\workspace\of\of_v0.11.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(914): warning C4267: '引数': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+c:\workspace\of\of_v0.11.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(915): warning C4267: '引数': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+c:\workspace\of\of_v0.11.1_vs2017_release\apps\of\jpgencoder\src\ofapp.cpp(31): warning C4267: '引数': 'size_t' から 'const int' に変換しました。データが失われているかもしれません。
+c:\workspace\of\of_v0.11.1_vs2017_release\apps\of\jpgencoder\src\ofapp.cpp(110): warning C4267: '引数': 'size_t' から 'DWORD' に変換しました。データが失われているかもしれません。
+  JpgEncoder.vcxproj -> C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\JpgEncoder\bin\JpgEncoder_debug.exe
+  
+  	                   2	C:\workspace\of\of_v0.11.1_vs2017_release\libs\fmod\lib\vs\x64\
+  	  *EXTRA File 		 6942208	C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\JpgEncoder\bin\FreeImage.dll
+  
+  	                   1	C:\workspace\of\of_v0.11.1_vs2017_release\libs\FreeImage\lib\vs\x64\
+  	  *EXTRA File 		 1826304	C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\JpgEncoder\bin\fmod.dll
+  	  *EXTRA File 		 2041856	C:\workspace\of\of_v0.11.1_vs2017_release\apps\oF\JpgEncoder\bin\fmodL.dll
